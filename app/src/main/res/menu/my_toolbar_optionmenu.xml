@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuItem_favorit"
+        android:title="@string/toolbarMenuItem1"
+        android:icon="@drawable/fav_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menuItem_about"
+        android:title="@string/toolbarMenuItem3"
+        android:icon="@drawable/info_icon"/>
+</menu>
