@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playlistSongsLayout"
+    android:background="@drawable/background_kedua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    tools:context=".Activity.PlaylistSongsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@id/playbackLayout"
+        android:id="@+id/songsListRView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-40dp"
+        android:paddingTop="?android:attr/actionBarSize"
+        android:translationZ="1dp"
+        android:elevation="1dp"/>
+
+    <RelativeLayout
+        android:id="@+id/playbackLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="20dp"
+        android:background="@drawable/background_ketiga"
+        android:translationZ="2dp"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="50dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/playbackAlbumArt"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/default_cover_art"/>
+
+            <!-- Layout Song Detail & Controllers -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/playbackSongNameTxtView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We Are"
+                    style="@style/TextPlayback.Primary"/>
+
+                <TextView
+                    android:id="@+id/playbackArtistNameTxtView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One Ok Rock"
+                    style="@style/TextPlayback.Secondary"/>
+
+                <!-- Layout Controllers -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/playbackPrevBtn"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/notif_skip_previous"/>
+
+                    <ImageView
+                        android:id="@+id/playbackPlayPauseBtn"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/notif_play_btn"/>
+
+                    <ImageView
+                        android:id="@+id/playbackNextBtn"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/notif_skip_next"/>
+
+                </LinearLayout>
+                <!-- End of Layout Controllers -->
+
+            </LinearLayout>
+            <!-- End of Layout Song Detail & Controllers -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/emptySongsLayout"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/empty_songs_icon"/>
+
+        <TextView
+            style="@style/TextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tidak ada lagu!"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
