@@ -17,4 +17,4 @@ The purpose of making this application is that the application can provide more 
 ## UI Design
 
 - SplashScreen
-![SplashScreenActivity](asset_for_repo/images/Splash screen.png)
+[SplashScreenActivity](asset_for_repo/images/Splash_screen.png)
