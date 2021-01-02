@@ -5,6 +5,8 @@ This application developed to fulfill the final project of the Mobile Computing 
 
 The purpose of making this application is that the application can provide more convenience to users with the Speech Recognizer technology which can receive direct commands from the user so that without looking at the application or clicking on the user interface, the user can still control the music playlist as desired.
 
+<br>
+
 ## The Features
 
 -	User Interface for controlling the music playlist, which are:
@@ -35,6 +37,7 @@ The purpose of making this application is that the application can provide more 
 4.	Permission 0f Audio access
     - `android.permission.RECORD_AUDIO`
 
+<br>
 
 ## UI Design
 
@@ -72,7 +75,7 @@ The purpose of making this application is that the application can provide more 
 
 - SplashScreen
 
-![SplashScreenActivity](asset_for_repo/screenshots/splash_screen_activity.jpg)
+![SplashScreenActivity](asset_for_repo/screenshots/splash_screen activity.jpg)
 
 - SmartMusicPlayerActivity
 
