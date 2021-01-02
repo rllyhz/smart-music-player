@@ -75,7 +75,7 @@ The purpose of making this application is that the application can provide more 
 
 - SplashScreen
 
-![SplashScreenActivity](asset_for_repo/screenshots/splash_screen activity.jpg)
+![SplashScreenActivity](https://github.com/rllyhz/smart-music-player/blob/master/asset_for_repo/screenshots/splash_screen%20activity.jpg)
 
 - SmartMusicPlayerActivity
 
