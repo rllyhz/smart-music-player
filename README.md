@@ -16,6 +16,9 @@ The purpose of making this application is that the application can provide more 
 
 -	Integrated with SpeechRecognizer technology so that it can receive predefined commands directly from the users.
 
+- Using Service for managing the music player so that it can run in the background, even the activity is paused.
+
+<br>
 
 ## Persmission needed
 
