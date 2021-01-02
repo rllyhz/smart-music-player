@@ -73,13 +73,13 @@ public class PlaylistFavSongAdapter extends RecyclerView.Adapter<PlaylistFavSong
         holder.rowFavSongsItemLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // save index to sharedPrefferences
+                // simpan index kedalam sharedPrefferences
                 StorageUtil storage = new StorageUtil(context);
                 int currentPosition = storage.loadAudioIndex();
 
-                // check if clicked song is currently on activeAudio
+                // cek jika lagu yang di klik sedang aktif (diputar atau dalam media session yang aktif / activeAudio)
                 if (index == currentPosition) {
-                    // just go directly to the musicPlayer activity
+                    // langsung buka activity musicPlayer tanpa melakukan apapun
                     Intent musicPlayerIntent = new Intent(context, SmartMusicPlayerActivity.class);
                     musicPlayerIntent.putExtra(whichIntentIsCalling, PLAYLIST_SONGS_INTENT);
                     context.startActivity(musicPlayerIntent);
@@ -87,29 +87,29 @@ public class PlaylistFavSongAdapter extends RecyclerView.Adapter<PlaylistFavSong
                 }
 
                 // else
-                // change audioIndex and activeAudio in MusicHelper to the new one
+                // ubah audioIndex dan activeAudio di MusicHelper menjadi yang baru
                 MusicHelper.audioIndex = index;
                 MusicHelper.activeAudio = songsList.get(index);
 
-                // also store to the sharedPrefferences
+                // juga simpan ke dalam sharedPrefferences
                 storage.storeAudioIndex(index);
                 storage.storeAudio(songsList);
 
 
-                // and then, check the app before playing the new one
-                // is the first time to play?
+                // dan setelah itu, cek lagi sebelum memutar lagu yang baru
+                // apakah pertama kali di putar?
                 if (MusicHelper.isFirstTimeToPlay) {
                     Intent playerService = new Intent(context, MediaPlayerService.class);
                     context.startService(playerService);
 
                     MusicHelper.isFirstTimeToPlay = false;
                 } else {
-                    // send broadcast to the service so that it'll play the song that have been stored.
+                    // kalau tidak, kirim broadcast ke Service agar memainkan lagu yang sudah di simpan.
                     Intent broadCastPlayNewAudio = new Intent(Broadcast_PLAY_NEW_AUDIO);
                     context.sendBroadcast(broadCastPlayNewAudio);
                 }
 
-                // and go to the musicPlayer activity
+                // dan redirect ke musicPlayer activity
                 Intent musicPlayerIntent = new Intent(context, SmartMusicPlayerActivity.class);
                 musicPlayerIntent.putExtra(whichIntentIsCalling, PLAYLIST_SONGS_INTENT);
                 context.startActivity(musicPlayerIntent);
