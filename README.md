@@ -22,11 +22,17 @@ The purpose of making this application is that the application can provide more 
 - SmartMusicPlayerActivity
 ![SmartMusicPlayerActivity](asset_for_repo/images/Sedang_Diputar_Activity.png)
 
+- SmartMusicPlayerActivity in Smart Mode
+![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/images/Sedang_Diputar_Activity__Mode_Smart.png)
+
 - PlaylistSongsActivity
-![SmartMusicPlayerActivity](asset_for_repo/images/Playlist_Lagu_Activity.png)
+![PlaylistSongsActivity](asset_for_repo/images/Playlist_Lagu_Activity.png)
 
 - PlaylistFavSongsActivity
-![SmartMusicPlayerActivity](asset_for_repo/images/Playlist_Lagu_Favorit_Activity.png)
+![PlaylistFavSongsActivity](asset_for_repo/images/Playlist_Lagu_Favorit_Activity.png)
 
 - PlaylistFavSongsActivity with Active Popup
-![SmartMusicPlayerActivity](asset_for_repo/images/Playlist_Lagu_Favorit_Activity__Popup.png)
+![PlaylistFavSongsActivity with Active Popup](asset_for_repo/images/Playlist_Lagu_Favorit_Activity__Popup.png)
+
+- Popup Menu Options with Active Popup
+![Popup Menu Options with Active Popup](asset_for_repo/images/Popup_Menu_Options.png)
