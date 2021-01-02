@@ -1,7 +1,7 @@
 # **SmartMusicPlayer Us**
 
 Simply, it's just like any other music player apps, but integrated with Speech Recognition.
-This application developed to fulfill the final project of the Mobile Computing subject in my college which is taught by Alfa Faridh Suni, S.T., M.T. and Feddy Setio Pribadi, S.Pd., M.T.
+This application developed to fulfill the final project of the Mobile Computing subject in my college 2019, which is taught by Alfa Faridh Suni, S.T., M.T. and Feddy Setio Pribadi, S.Pd., M.T.
 
 The purpose of making this application is that the application can provide more convenience to users with the Speech Recognizer technology which can receive direct commands from the user so that without looking at the application or clicking on the user interface, the user can still control the music playlist as desired.
 
@@ -50,32 +50,32 @@ The purpose of making this application is that the application can provide more 
 
 - SplashScreen
 
-![SplashScreenActivity](asset_for_repo/screenshots/splash_screen.png)
+![SplashScreenActivity](asset_for_repo/screenshots/splash_screen.jpg)
 
 - SmartMusicPlayerActivity
 
-![SplashScreenActivity](asset_for_repo/screenshots/smartMusicPlayer_activity.png)
+![SplashScreenActivity](asset_for_repo/screenshots/smartMusicPlayer_activity.jpg)
 
 - SmartMusicPlayerActivity in Smart Mode
 
-![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/screenshots/mode_smart_activity.png)
+![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/screenshots/mode_smart_activity.jpg)
 
 - Notification
 
-![Notification](asset_for_repo/screenshots/notification_showing_up_testing.png)
+![Notification](asset_for_repo/screenshots/notification_showing_up_testing.jpg)
 
 - PlaylistSongsActivity
 
-![PlaylistSongsActivity](asset_for_repo/screenshots/playlist_songs.png)
+![PlaylistSongsActivity](asset_for_repo/screenshots/playlist_songs.jpg)
 
 - PlaylistFavSongsActivity
 
-![PlaylistFavSongsActivity](asset_for_repo/screenshots/playlist_favorite_songs_activity.png)
+![PlaylistFavSongsActivity](asset_for_repo/screenshots/playlist_favorite_songs_activity.jpg)
 
 - Speech Recognition on testing mode
 
-![Speech Recognition on testing mode](asset_for_repo/screenshots/speech_recognition_testing.png)
+![Speech Recognition on testing mode](asset_for_repo/screenshots/speech_recognition_testing.jpg)
 
 - About Activity
 
-![About Activity](asset_for_repo/screenshots/about_activity.png)
+![About Activity](asset_for_repo/screenshots/about_activity.jpg)
