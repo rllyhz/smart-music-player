@@ -50,7 +50,7 @@ The purpose of making this application is that the application can provide more 
 
 - SplashScreen
 
-![SplashScreenActivity](asset_for_repo/screenshots/splash_screen.jpg)
+![SplashScreenActivity](asset_for_repo/screenshots/splash_screen_activity.jpg)
 
 - SmartMusicPlayerActivity
 
