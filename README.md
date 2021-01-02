@@ -11,7 +11,7 @@ a.	User Interface for controlling the music playlist, which are:
 
     1.	to control songs that are currently played.
 
-    2.	to manage playlist songs
+    2.	to manage playlist songs.
 
     3.	to manage playlist fav songs.
 
