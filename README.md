@@ -25,7 +25,6 @@ The purpose of making this application is that the application can provide more 
 ![SmartMusicPlayerActivity](asset_for_repo/images/Sedang_Diputar_Activity.png)
 
 - SmartMusicPlayerActivity in Smart Mode
-
 ![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/images/Sedang_Diputar_Activity__Mode_Smart.png)
 
 - Popup Menu Options with Active Popup
