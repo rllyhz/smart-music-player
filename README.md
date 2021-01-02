@@ -17,4 +17,16 @@ The purpose of making this application is that the application can provide more 
 ## UI Design
 
 - SplashScreen
-[SplashScreenActivity](asset_for_repo/images/Splash_screen.png)
+![SplashScreenActivity](asset_for_repo/images/Splash_screen.png)
+
+- SmartMusicPlayerActivity
+![SmartMusicPlayerActivity](asset_for_repo/images/Sedang_Diputar_Activity.png)
+
+- PlaylistSongsActivity
+![SmartMusicPlayerActivity](asset_for_repo/images/Playlist_Lagu_Activity.png)
+
+- PlaylistFavSongsActivity
+![SmartMusicPlayerActivity](asset_for_repo/images/Playlist_Lagu_Favorit_Activity.png)
+
+- PlaylistFavSongsActivity with Active Popup
+![SmartMusicPlayerActivity](asset_for_repo/images/Playlist_Lagu_Favorit_Activity__Popup.png)
