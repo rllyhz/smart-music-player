@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_utama"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="25dp"
+    android:paddingVertical="15dp"
+    tools:context=".Activity.SmartMusicPlayerActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_albumArt"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="?android:attr/actionBarSize">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/albumArtImgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_cover_art"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/songNameTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="We Are"
+        style="@style/TextMarqueePrimary" />
+
+    <TextView
+        android:id="@+id/artistNameTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="One Ok Rock"
+        style="@style/TextMarqueeSecondary"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <!-- Layout Seekbar -->
+        <RelativeLayout
+            android:id="@+id/layout_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="-5dp">
+
+            <TextView
+                android:id="@+id/timelineTxtView"
+                android:layout_above="@id/seekBarMusicController"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                style="@style/TextTimeLine"/>
+
+            <TextView
+                android:id="@+id/durationSongTxtView"
+                android:layout_above="@id/seekBarMusicController"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="00:00"
+                style="@style/TextTimeLine"/>
+
+            <SeekBar
+                android:id="@+id/seekBarMusicController"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"/>
+
+        </RelativeLayout>
+        <!-- End of Layout Seekbar -->
+
+        <!-- Layout Controllers -->
+        <RelativeLayout
+            android:layout_below="@id/layout_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/prevBtn"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/playPauseBtn"
+                style="@style/ButtonSecondarySize"
+                android:src="@drawable/controller_prev_btn"/>
+
+            <ImageView
+                android:id="@+id/playPauseBtn"
+                android:layout_centerInParent="true"
+                style="@style/ButtonPrimarySize"
+                android:src="@drawable/controller_play_btn"/>
+
+            <ImageView
+                android:id="@+id/nextBtn"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/playPauseBtn"
+                style="@style/ButtonSecondarySize"
+                android:src="@drawable/controller_prev_btn"/>
+
+            <!--  -->
+            <ImageView
+                android:id="@+id/repeatShuffleBtn"
+                style="@style/ButtonSmallSize"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/prevBtn"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/controller_unrepeat_icon"/>
+
+            <ImageView
+                android:id="@+id/favoritBtn"
+                style="@style/ButtonSmallSize"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/nextBtn"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/controller_unfav_icon"/>
+
+        </RelativeLayout>
+        <!-- End of Layout Controllers -->
+
+    </RelativeLayout>
+
+</LinearLayout>
