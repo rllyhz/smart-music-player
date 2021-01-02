@@ -17,17 +17,17 @@ The purpose of making this application is that the application can provide more 
 
 ## Persmission needed
 
-1. Internet
+1. Permission of Internet access
 - `android.permission.INTERNET`.
 
-2.	Hak akses Media Control
+2.	Permission of Media Control access
 - `android.permission.MEDIA_CONTENT_CONTROL`
 
-3.	Hak akses Penyimpan Eksternal
+3.	Permission of External storage access
 - `android.permission_READ_EXTERNAL_STORAGE`
 - `android.permission.WRITE_EXTERNAL_STORAGE`
 
-4.	Hak akses Rekam Audio
+4.	Permission 0f Audio access
 - `android.permission.RECORD_AUDIO`
 
 
