@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/rowSongsItemLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="6dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="10dp"
+        android:paddingRight="18dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/rowItem_songAlbumArt"
+            android:layout_alignParentLeft="true"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/default_cover_art"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/rowItem_songAlbumArt"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/rowItem_songtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We Are"
+                style="@style/TextSongItemPrimary"/>
+
+            <TextView
+                android:id="@+id/rowItem_songArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One Ok Rock"
+                style="@style/TextSongItemsecondary"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rowItem_songDuration"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02:00"
+            style="@style/TextSongItemsecondary"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
