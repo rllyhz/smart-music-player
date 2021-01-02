@@ -14,6 +14,23 @@ The purpose of making this application is that the application can provide more 
 -	A notification that is able to control the music currently played.
 -	Integrated with SpeechRecognizer technology so that it can receive predefined commands directly from the users.
 
+
+## Persmission needed
+
+1. Internet
+- `android.permission.INTERNET`.
+
+2.	Hak akses Media Control
+- `android.permission.MEDIA_CONTENT_CONTROL`
+
+3.	Hak akses Penyimpan Eksternal
+- `android.permission_READ_EXTERNAL_STORAGE`
+- `android.permission.WRITE_EXTERNAL_STORAGE`
+
+4.	Hak akses Rekam Audio
+- `android.permission.RECORD_AUDIO`
+
+
 ## UI Design
 
 - SplashScreen
