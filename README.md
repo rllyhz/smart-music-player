@@ -15,3 +15,6 @@ The purpose of making this application is that the application can provide more 
 -	Integrated with SpeechRecognizer technology so that it can receive predefined commands directly from the users.
 
 ## UI Design
+
+- SplashScreen
+![SplashScreenActivity](asset_for_repo/images/Splash screen.png)
