@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Smart MusikKu</string>
+
+    <string name="toolbarMenuItem1">Lagu Favorit</string>
+    <string name="toolbarMenuItem2">Pengaturan</string>
+    <string name="toolbarMenuItem3">Tentang</string>
+
+    <!--  for action bar  -->
+    <string-array name="actionBarTitle">
+        <item>Sedang Diputar</item>
+        <item>Playlist Lagu</item>
+        <item>Playlist Lagu Favorit</item>
+        <item>Pengaturan</item>
+        <item>Tentang</item>
+    </string-array>
+
+</resources>
