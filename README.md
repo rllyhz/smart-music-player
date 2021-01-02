@@ -26,7 +26,7 @@ The purpose of making this application is that the application can provide more 
 
 - SmartMusicPlayerActivity in Smart Mode
 
-![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/images/Sedang_Diputar_Activity ___Mode_Smart.png)
+![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/images/Sedang_Diputar_Activity__Mode_Smart.png)
 
 - Popup Menu Options with Active Popup
 
@@ -43,3 +43,39 @@ The purpose of making this application is that the application can provide more 
 - PlaylistFavSongsActivity with Active Popup
 
 ![PlaylistFavSongsActivity with Active Popup](asset_for_repo/images/Playlist_Lagu_Favorit_Activity__Popup.png)
+
+<br>
+
+## Implementation
+
+- SplashScreen
+
+![SplashScreenActivity](asset_for_repo/screenshots/splash_screen.png)
+
+- SmartMusicPlayerActivity
+
+![SplashScreenActivity](asset_for_repo/screenshots/smartMusicPlayer_activity.png)
+
+- SmartMusicPlayerActivity in Smart Mode
+
+![SmartMusicPlayerActivity in Smart Mode](asset_for_repo/screenshots/mode_smart_activity.png)
+
+- Notification
+
+![Notification](asset_for_repo/screenshots/notification_showing_up_testing.png)
+
+- PlaylistSongsActivity
+
+![PlaylistSongsActivity](asset_for_repo/screenshots/playlist_songs.png)
+
+- PlaylistFavSongsActivity
+
+![PlaylistFavSongsActivity](asset_for_repo/screenshots/playlist_favorite_songs_activity.png)
+
+- Speech Recognition on testing mode
+
+![Speech Recognition on testing mode](asset_for_repo/screenshots/speech_recognition_testing.png)
+
+- About Activity
+
+![About Activity](asset_for_repo/screenshots/about_activity.png)
